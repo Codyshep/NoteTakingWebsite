@@ -1,0 +1,82 @@
+/* Global styles */
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #E2F0D9;
+}
+
+header {
+  background-color: #333;
+  color: #F3EFEF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 1rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  margin: 2rem;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+textarea {
+  border: 2px solid #B9C7A0;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  background-color: #eae8e4b3;
+}
+
+button[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+ul#notes-list {
+  list-style: none;
+  padding: 0;
+}
+
+ul#notes-list li {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 2px solid #B9C7A0;
+  background-color: #eae8e4b3;
+}

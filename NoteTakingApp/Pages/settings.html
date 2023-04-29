@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings - My Note Taking App</title>
+    <link rel="stylesheet" href="../Style.css">
+  </head>
+  <body>
+    <header>
+      <h1>My Note Taking App</h1>
+      <nav>
+        <ul>
+          <li><a href="Main.html">Home</a></li>
+          <li><a href="take-note.html">Take Note</a></li>
+          <li><a href="settings.html">Settings</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h2>Theme</h2>
+      <form>
+        <label for="theme">Select a theme:</label>
+        <select id="theme" name="theme">
+          <option value="default">Default</option>
+          <option value="dark">Dark</option>
+        </select>
+        <button type="button" id="apply-theme">Apply</button>
+      </form>
+    </main>
+    <script src="../Handlers/Theme.js"></script>
+  </body>
+</html>

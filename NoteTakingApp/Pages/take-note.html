@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lings Note Taking App - Take Note</title>
+  <link rel="stylesheet" href="../Style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="Main.html">Home</a></li>
+        <li><a href="take-note.html">Take Note</a></li>
+        <li><a href="settings.html">Settings</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <h1>Take a Note</h1>
+    <form>
+      <label for="note-title">Title:</label>
+      <input type="text" id="note-title">
+      <br>
+      <label for="note-content">Content:</label>
+      <textarea id="note-content"></textarea>
+      <br>
+      <button type="button" id="save-note">Save Note</button>
+    </form>
+    <ul id="notes-list"></ul>
+  </main>
+  
+  <footer>
+    <p>&copy; 2023 Lings Note Taking App</p>
+  </footer>
+
+  <script src="../Handlers/NoteTake.js"></script>
+
+</body>
+</html>
